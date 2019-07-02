@@ -1,7 +1,6 @@
-from . import views, login
+from . import views
 from django.urls import path, include
 
-urlpatterns = [
-    path('', views.login, name='login'),
-    
+urlpatterns = [    
+    path('', views.index, name='index'),
 ]
