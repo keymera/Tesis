@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 
 def index(resqust):
-    return render(resqust,"../templates/index.html")
+    return render(resqust,"../templates/login.html")
