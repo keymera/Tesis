@@ -1,0 +1,29 @@
+header .container{
+	background: #444;
+	border-bottom: 20px solid #000;
+}
+header h1.title {
+	color:#FFF;
+	margin: 15px 0;
+}
+
+
+footer .container {
+	background: #000;
+}
+
+footer p {
+	color: #FFF;
+	margin-top:10px;
+}
+
+div {
+    color: #444;
+	background: #000;
+}
+section div.container {
+    width: 10px;
+    left: 10px;
+    margin: 0px;
+    color: #000
+}
